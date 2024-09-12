@@ -31,7 +31,7 @@ server.use("/api/otp",otpRoutes);
 
 //Product Routes
 const productRoutes = require("./routes/product.routes");
-server.use("/api/product",productRoutes);
+server.use("/api/",productRoutes);
 
 //cart Routes
 
